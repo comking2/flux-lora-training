@@ -1,0 +1,52 @@
+# FLUX 모델 파일들 (용량이 크므로 제외)
+models/
+*.safetensors
+*.bin
+*.ckpt
+
+# Hugging Face 캐시
+.cache/
+__pycache__/
+
+# 환경 파일
+.env
+env/
+venv/
+
+# 출력 파일들
+flux_lora_output/
+generated_images/
+test_results/
+
+# 로그 파일
+*.log
+logs/
+
+# 임시 파일
+.tmp/
+temp/
+
+# 훈련 데이터 (개인 데이터 보호)
+training_data/
+dataset/
+
+# 시스템 파일
+.DS_Store
+Thumbs.db
+
+# IDE 파일
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+.Python
+*.egg-info/
+dist/
+build/
